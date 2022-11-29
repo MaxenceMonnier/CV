@@ -1,0 +1,19 @@
+body{
+    background-color: #1e1c27;
+}
+.Nom img{
+    width: 10%; 
+    border-radius: 15%;
+}
+
+.Skills img{
+    width: 50px;
+    height: auto;  
+}
+.machins img{
+    width: 10%;
+}
+.infos img{
+    width: 5%;
+    background-image: url(img\united-kingdom-1.svg);
+}
