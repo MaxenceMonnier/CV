@@ -1,9 +1,11 @@
 /* * {border: solid black 1px;}
  */
-html{
+*{
+  scroll-behavior: smooth;
+}
+ html{
     font-family: "font\NotoSerifJP-Light.otf";
     font-size: 10px;
-    scroll-behavior: smooth;
 }
 body{
   background-color: #1e1c27;
@@ -35,13 +37,12 @@ li{
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+  position: absolute;
   bottom: 0;
   width: 100%;
   display: flex;
   z-index: 10000;
   flex-direction: row;
-  position: relative;
 
 }
 
@@ -130,3 +131,112 @@ li{
 .Skills img{
   width: 35px;
 }
+
+/* BOUTON */
+@import url('https://fonts.googleapis.com/css?family=Stardos+Stencil');
+
+#div  {text-align: center;}
+
+.hide {opacity: 0;}
+#template {
+  display: inline-block;
+  fill: none;
+  stroke: #727272;
+  stroke-width: 10px;
+}
+#list {
+  fill: none;
+  stroke: #727272;
+  stroke-width: 10px;
+}
+.list {
+  animation: list 1ms 0s ease 1 forwards;
+}
+@keyframes list {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#downloadarrow {
+  fill: none;
+  stroke: #595959;
+  stroke-width: 10px;
+  opacity: 0;
+}
+.downloadarrow {
+  animation: downloadarrow 1s 0s infinite linear;
+}
+@keyframes downloadarrow {
+  0% {
+    opacity: 1;
+    transform: translateY(-60px);
+  }
+  100% {
+    opacity: 0.6;
+    transform: translateY(-20px);
+  }
+}
+#downloadtray {
+  fill: none;
+  stroke: #595959;
+  stroke-width: 10px;
+  opacity: 0;
+}
+.downloadtray {
+  animation: downloadtray 0.5s 0s ease 1 forwards;
+}
+@keyframes downloadtray {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+#tick {
+  fill: none;
+  stroke-width: 50px;
+  opacity: 0;
+}
+.tick {
+  animation: tick 1ms 0s ease 1 forwards;
+}
+@keyframes tick {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+#tickround {
+  stroke: lime;
+  stroke-dasharray: 4000;
+  stroke-linecap: round;
+}
+.tickdraw {
+  animation: tickdraw 2s 0s linear;
+}
+@keyframes tickdraw {
+  0% {
+    stroke-dashoffset: 4000;
+  }
+  100% {
+    stroke-dashoffset: 8000;
+  }
+}
+.text {
+  font-size: calc(100% + 20px); font-family: 'Stardos Stencil';
+  margin: 50px 0px 0px 0px;
+}
+.Color {
+  color: lime;
+  transition: 1000ms all 1.6s linear;
+}
+
+
+/* FIN BOUTON */
