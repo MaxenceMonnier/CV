@@ -7,43 +7,66 @@ html{
 
 }
 body{
-/*     background-color: #1e1c27; */
+    background-color: #1e1c27;
     color: #CCC;
     overflow-y: hidden;
     overflow-x: scroll;
     margin: 0 auto;
+    padding: 0 auto;
+}
+/* L'ENFER DU SIDE SCROLLING */
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.one {
+  background: #1e1c27;
+}
+.two {
+  background: #1e1c27;
+}
+.three {
+  background: #1e1c27;
+}
+.four {
+  background: #1e1c27;
+}
+.Expériences, .Skills{
+  display: inline-flex;
+  flex-direction: column;
 }
 
-.slide {
-    width: 100vw;
-    height: 100vh;
-  }
-  .wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 400vw;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display:none;
+}
+/* FIN */
 
-  }
-  .un {
-    background: #1e1c27;
-  }
-  .deux {
-    background: #1e1c27;
-  }
-  .trois {
-    background: #1e1c27;
-  }
-  .quatre {
-    background: #1e1c27;
-  }
-  .outer-wrapper{
-    transform: rotate(-90deg) translateX(-100vh);
-    transform-origin: top left;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    position: absolute;
-  }
+.one img{
+  width: 50px;
+}
 
+.two img{
+  width: 50px;
+}
 
+.Skills img{
+  width: 35px;
+}
