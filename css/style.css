@@ -38,17 +38,17 @@ body{
 .four {
   background: #1e1c27;
 }
-.Expériences, .Skills{
+.Expériences, .Formations{
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .outer-wrapper {
-  width: 100vh;
+  width: -50vh;
   height: 100vw;
   transform: rotate(-90deg) translateX(-100vh);
   transform-origin: top left;
-  overflow-y: scroll;
+  overflow-y:auto;
   overflow-x: scroll;
   position: absolute;
   scrollbar-width: none;
