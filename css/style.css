@@ -23,7 +23,7 @@ nav {
   justify-content: flex-end;
 }
 nav img{
-  width: 35px;
+  width: 100px;
 }
 ul{ 
   list-style-type: none; 
@@ -43,6 +43,7 @@ li{
   display: flex;
   z-index: 10000;
   flex-direction: row;
+  justify-content: space-evenly;
 
 }
 
@@ -66,7 +67,7 @@ li{
   color: white;
 }
 .navbar img{
-  width: 15px;
+  width: 25px;
 }
 
 .main {
@@ -119,19 +120,32 @@ li{
   display:none;
 }
 /* FIN */
+/* ------------------------------------------------------- */
 
 .one img{
   width: 50px;
 }
 
 .two img{
-  width: 50px;
+  width: 40px;
 }
 
 .Skills img{
-  width: 35px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
 }
 
+.two a{
+  text-decoration: none;
+}
+.two{
+  display: flex;
+  flex-direction: row;
+}
+
+/* ------------------------------------------------------- */
 /* BOUTON */
 #div  {text-align: center;}
 

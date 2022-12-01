@@ -11,7 +11,7 @@ $(document).ready (function() {
       $("#tick").toggleClass("tick");
       $("#tickround").toggleClass("tickdraw");
       $(".text").toggleClass("Color");
-      $(".text").text ("clicked");
+      $(".text").text ("Merci!");
         $("#download").hover(function() {
         $("#list").toggleClass("hide");
         $("#downloadtray").toggleClass("downloadtray");
