@@ -1,4 +1,3 @@
-//cv download icon
 $(document).ready (function() {
     $("#download").hover (function() {
     $("#list").toggleClass("hide");
@@ -20,4 +19,4 @@ $(document).ready (function() {
         }); 
       });
     });
-  });
+  }); 
