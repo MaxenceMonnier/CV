@@ -133,8 +133,6 @@ li{
 }
 
 /* BOUTON */
-@import url('https://fonts.googleapis.com/css?family=Stardos+Stencil');
-
 #div  {text-align: center;}
 
 .hide {opacity: 0;}
@@ -276,7 +274,7 @@ h1 {
   letter-spacing: 0.5px;
   position: relative;
   line-height: 1.5em;
-  font-size: 1em;
+  font-size: 0.9em;
   padding-left: 25px;
   padding-right: 25px;
   list-style: none;
@@ -316,8 +314,8 @@ h1 {
   content: attr(data-date);
   text-align: center;
   font-weight: 100;
-  font-size: 0.9em;
-  width: 50px;
+  font-size: 0.8em;
+  width: 60px;
 }
 .timeline .event:after {
   box-shadow: 0 0 0 4px #004ffc;
