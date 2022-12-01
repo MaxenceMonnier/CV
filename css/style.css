@@ -144,6 +144,9 @@ li{
   display: flex;
   flex-direction: row;
 }
+h1, h2{
+  text-align: center;
+}
 
 /* ------------------------------------------------------- */
 /* BOUTON */
@@ -244,6 +247,7 @@ li{
 .text {
   font-size: calc(100% + 20px); font-family: 'Stardos Stencil';
   margin: 50px 0px 0px 0px;
+  font-size: x-large;
 }
 .Color {
   color: lime;
@@ -275,7 +279,7 @@ h1 {
 }
 #timeline-content {
   margin-top: 0px;
-  text-align: center;
+  text-align: left;
 }
 /* Timeline */
 .timeline {
