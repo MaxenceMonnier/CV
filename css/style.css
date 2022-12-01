@@ -37,7 +37,7 @@ li{
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
