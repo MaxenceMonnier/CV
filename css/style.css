@@ -234,6 +234,9 @@ h1, h2{
   justify-content: end;
   align-items: center;
 }
+.machinstrucs{
+  width: 30px;
+}
 /* ------------------------------------------------------- */
 /* BOUTON */
 #div  {text-align: center;}
