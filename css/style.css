@@ -118,7 +118,7 @@ li{
 .two {
   background: #1e1c27;
   text-decoration: none;
-
+  padding: 4px;
 }
 .three {
   background: #1e1c27;
@@ -135,7 +135,7 @@ li{
 }
 
 .two img{
-  width: 60px;
+  width: 75px;
 }
 
 .Skills img{
@@ -148,18 +148,53 @@ li{
 .two a{
   text-decoration: none;
   color: #CCC;
+  font-size: 2.2rem;
 }
 .two a:visited{
   color: #5e8233;
 }
-.two{
-  display: flex;
-  flex-direction: row;
-}
 h1, h2{
   text-align: center;
 }
+.phone{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  z-index: 1000;
+}
+.mail{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  z-index: 1000;
 
+}
+.website{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  z-index: 1000;
+
+}
+.permis{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  z-index: 1000;
+
+}
+.Linkedin{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  z-index: 1000;
+
+}
+
+.machins img{
+  width: 60vh;
+  left: 20px;
+}
 /* ------------------------------------------------------- */
 /* BOUTON */
 #div  {text-align: center;}
