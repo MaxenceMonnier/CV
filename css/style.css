@@ -195,6 +195,34 @@ h1, h2{
   width: 60vh;
   left: 20px;
 }
+.shtml{
+  display: flex;
+  justify-content: end;
+}
+.css{
+  display: flex;
+  justify-content: start;
+}
+.photoshop{
+  display: flex;
+  justify-content: end;
+}
+.vcode{
+  display: flex;
+  justify-content: start;
+}
+.wordpress{
+  display: flex;
+  justify-content: end;
+}
+.office{
+  display: flex;
+  justify-content: start;
+}
+.jack{
+  display: flex;
+  justify-content: end;
+}
 /* ------------------------------------------------------- */
 /* BOUTON */
 #div  {text-align: center;}
