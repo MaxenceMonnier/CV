@@ -1,6 +1,6 @@
 .slide{
 border: 5px solid #5e8233;
-margin: 15px;
+padding: -15px;
 }
 *{
   scroll-behavior: smooth;
@@ -17,97 +17,7 @@ body{
   margin: 0 auto;
   padding: 0 auto;
 }
-/* LA BARRE DE NAVARRO */
-nav {
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-}
-nav img{
-  width: 100px;
-}
-ul{ 
-  list-style-type: none; 
-  margin: 0;
-  padding: 0;
-} 
-li{
-  text-decoration: none;
-}
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  z-index: 10000;
-  flex-direction: row;
-  justify-content: space-evenly;
-
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #ccc;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  width: calc(100%/4);
-}
-
-.navbar a:hover {
-  background: #1e1c27;
-  color: #CCC;
-}
-
-.navbar a.active {
-  background-color: #333;
-  color: white;
-}
-.navbar img{
-  width: 25px;
-}
-
-.main {
-  padding: 16px;
-  margin-bottom: 30px;
-}
-/* FIN */
-
-/* L'ENFER DU SIDE SCROLLING */
-.slide {
-  width: 100vw;
-  height: 100vh;
-}
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  width: 400vw;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
-}
-
-
-.outer-wrapper {
-  width: -50vh;
-  height: 100vw;
-  transform: rotate(-90deg) translateX(-100vh);
-  transform-origin: top left;
-  overflow-y:auto;
-  overflow-x: scroll;
-  position: absolute;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-::-webkit-scrollbar {
-  display:none;
-}
-/* FIN */
 /* ------------------------------------------------------- */
 
 
@@ -137,7 +47,7 @@ li{
 }
 
 .two img{
-  width: 75px;
+  width: 50px;
 }
 
 .Skills img{
@@ -440,3 +350,95 @@ h1 {
 }
 
 /* FIN DE TIMELINE */
+
+/* LA BARRE DE NAVARRO */
+nav {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+nav img{
+  width: 100px;
+}
+ul{ 
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+} 
+li{
+  text-decoration: none;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  z-index: 10000;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ccc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: calc(100%/4);
+}
+
+.navbar a:hover {
+  background: #1e1c27;
+  color: #CCC;
+}
+
+.navbar a.active {
+  background-color: #333;
+  color: white;
+}
+.navbar img{
+  width: 25px;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+/* FIN */
+
+/* L'ENFER DU SIDE SCROLLING */
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+
+.outer-wrapper {
+  width: -50vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y:auto;
+  overflow-x: scroll;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display:none;
+}
+/* FIN */
