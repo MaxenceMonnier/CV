@@ -1,5 +1,7 @@
-/* * {border: solid black 1px;}
- */
+.slide{
+border: 5px solid #5e8233;
+margin: 15px;
+}
 *{
   scroll-behavior: smooth;
 }
@@ -144,6 +146,10 @@ li{
   flex-direction: column;
   justify-content: center; 
 }
+.Skills{
+  box-sizing: border-box;
+  padding: 10px;
+}
 
 .two a{
   text-decoration: none;
@@ -234,9 +240,7 @@ h1, h2{
   justify-content: end;
   align-items: center;
 }
-.machinstrucs{
-  width: 30px;
-}
+
 /* ------------------------------------------------------- */
 /* BOUTON */
 #div  {text-align: center;}
@@ -416,13 +420,14 @@ h1 {
   top: 0;
 }
 .timeline .event:before {
-  left: -105px;
+  left: -50%;
   color: rgba(255, 255, 255, 0.4);
   content: attr(data-date);
   text-align: center;
   font-weight: 100;
   font-size: 0.8em;
   width: 60px;
+  padding: 10px;
 }
 .timeline .event:after {
   box-shadow: 0 0 0 4px #5e8233;
