@@ -55,6 +55,7 @@ li{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  width: calc(100%/4);
 }
 
 .navbar a:hover {
@@ -88,22 +89,7 @@ li{
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
-.one {
-  background: #1e1c27;
-}
-.two {
-  background: #1e1c27;
-}
-.three {
-  background: #1e1c27;
-}
-.four {
-  background: #1e1c27;
-}
-.Expériences, .Formations{
-  display: inline-flex;
-  flex-direction: row;
-}
+
 
 .outer-wrapper {
   width: -50vh;
@@ -122,12 +108,34 @@ li{
 /* FIN */
 /* ------------------------------------------------------- */
 
+
+.one {
+  background: #1e1c27;
+  text-decoration: none;
+}
+.one a{
+}
+.two {
+  background: #1e1c27;
+  text-decoration: none;
+
+}
+.three {
+  background: #1e1c27;
+}
+.four {
+  background: #1e1c27;
+}
+.Expériences, .Formations{
+  display: inline-flex;
+  flex-direction: row;
+}
 .one img{
   width: 50px;
 }
 
 .two img{
-  width: 40px;
+  width: 60px;
 }
 
 .Skills img{
@@ -139,6 +147,10 @@ li{
 
 .two a{
   text-decoration: none;
+  color: #CCC;
+}
+.two a:visited{
+  color: #5e8233;
 }
 .two{
   display: flex;
