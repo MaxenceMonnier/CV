@@ -1,444 +1,513 @@
-.slide{
-border: 5px solid #5e8233;
-padding: -15px;
-}
-*{
-  scroll-behavior: smooth;
-}
-html{
-    font-size: 10px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-body{
-  background-color: #1e1c27;
-  color: #CCC;
-  overflow-y: scroll;
-  overflow-x: scroll;
-  margin: 0 auto;
-  padding: 0 auto;
-}
-
-/* ------------------------------------------------------- */
-
-
-.one {
-  background: #1e1c27;
-  text-decoration: none;
-}
-/* .one a{
-} */
-.two {
-  background: #1e1c27;
-  text-decoration: none;
-  padding: 4px;
-}
-.three {
-  background: #1e1c27;
-}
-.four {
-  background: #1e1c27;
-}
-.Expériences, .Formations{
-  display: inline-flex;
-  flex-direction: row;
-}
-.one img{
-  width: 40px;
-}
-
-.two img{
-  width: 50px;
-}
-
-.Skills img{
-  width: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-}
-.Skills{
-  box-sizing: border-box;
-  padding: 10px;
-}
-
-.two a{
-  text-decoration: none;
-  color: #CCC;
-  font-size: 1.5rem;
-}
-.two a:visited{
-  color: #5e8233;
-}
-h1, h2{
-  text-align: center;
-}
-.phone{
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  z-index: 1000;
-}
-.mail{
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  z-index: 1000;
-
-}
-.website{
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  z-index: 1000;
-
-}
-.permis{
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  z-index: 1000;
-
-}
-.Linkedin{
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  z-index: 1000;
-
-}
-
-.machins img{
-  width: 100%;
-  position: relative;
-}
-.shtml{
-  display: flex;
-  justify-content: end;
-}
-.css{
-  display: flex;
-  justify-content: start;
-}
-.photoshop{
-  display: flex;
-  justify-content: end;
-}
-.vcode{
-  display: flex;
-  justify-content: start;
-}
-.wordpress{
-  display: flex;
-  justify-content: end;
-}
-.office{
-  display: flex;
-  justify-content: start;
-}
-.jack{
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
-.git{
-  display: flex;
-  justify-content: start;
-  align-items: center;
-}
-.canva{
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
-
-/* ------------------------------------------------------- */
-/* BOUTON */
-#div  {text-align: center;}
-
-.hide {opacity: 0;}
-#template {
-  display: inline-block;
-  fill: none;
-  stroke: #727272;
-  stroke-width: 10px;
-}
-#list {
-  fill: none;
-  stroke: #727272;
-  stroke-width: 10px;
-}
-.list {
-  animation: list 1ms 0s ease 1 forwards;
-}
-@keyframes list {
-  0% {
-    opacity: 1;
+  *{
+    scroll-behavior: smooth;
   }
-  100% {
+  html{
+      font-size: 10px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  body{
+    background-color: #1e1c27;
+    color: #CCC;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  
+  /* ------------------------------------------------------- */
+  
+  
+  .one {
+    background: #1e1c27;
+    text-decoration: none;
+  }
+  .one a{
+    text-decoration: none;
+    color: #CCC;
+    font-size: 1.5rem;
+  }
+  .two {
+    background: #1e1c27;
+    text-decoration: none;
+    padding: 4px;
+  }
+  .three {
+    background: #1e1c27;
+  }
+  .four {
+    background: #1e1c27;
+  }
+  .Expériences, .Formations{
+    display: inline-flex;
+    flex-direction: row;
+  }
+  .one img{
+    width: 40px;
+  }
+  
+  .two img{
+    width: 50px;
+  }
+  
+  .Skills img{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
+  .Skills{
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .two a{
+    text-decoration: none;
+    color: #CCC;
+    font-size: 1.5rem;
+  }
+  .two a:visited{
+    color: #5e8233;
+  }
+  h1, h2{
+    text-align: center;
+  }
+/*   .phone{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 1000;
+  }
+  .mail{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 1000;
+  
+  }
+  .website{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 1000;
+  
+  }
+  .permis{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 1000;
+  
+  }
+  .Linkedin{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 1000;
+  
+  } */
+  
+  .machins img{
+    width: 100%;
+    position: relative;
+  }
+
+  
+  /* ------------------------------------------------------- */
+  /* BOUTON */
+  #div  {text-align: center;}
+  
+  .hide {opacity: 0;}
+  #template {
+    display: inline-block;
+    fill: none;
+    stroke: #727272;
+    stroke-width: 10px;
+  }
+  #list {
+    fill: none;
+    stroke: #727272;
+    stroke-width: 10px;
+  }
+  .list {
+    animation: list 1ms 0s ease 1 forwards;
+  }
+  @keyframes list {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  #downloadarrow {
+    fill: none;
+    stroke: #595959;
+    stroke-width: 10px;
     opacity: 0;
   }
-}
-
-#downloadarrow {
-  fill: none;
-  stroke: #595959;
-  stroke-width: 10px;
-  opacity: 0;
-}
-.downloadarrow {
-  animation: downloadarrow 1s 0s infinite linear;
-}
-@keyframes downloadarrow {
-  0% {
-    opacity: 1;
-    transform: translateY(-60px);
+  .downloadarrow {
+    animation: downloadarrow 1s 0s infinite linear;
   }
-  100% {
-    opacity: 0.6;
-    transform: translateY(-20px);
+  @keyframes downloadarrow {
+    0% {
+      opacity: 1;
+      transform: translateY(-60px);
+    }
+    100% {
+      opacity: 0.6;
+      transform: translateY(-20px);
+    }
   }
-}
-#downloadtray {
-  fill: none;
-  stroke: #595959;
-  stroke-width: 10px;
-  opacity: 0;
-}
-.downloadtray {
-  animation: downloadtray 0.5s 0s ease 1 forwards;
-}
-@keyframes downloadtray {
-  0% {
+  #downloadtray {
+    fill: none;
+    stroke: #595959;
+    stroke-width: 10px;
     opacity: 0;
   }
-  100% {
-    opacity: 1.0;
+  .downloadtray {
+    animation: downloadtray 0.5s 0s ease 1 forwards;
   }
-}
-#tick {
-  fill: none;
-  stroke-width: 50px;
-  opacity: 0;
-}
-.tick {
-  animation: tick 1ms 0s ease 1 forwards;
-}
-@keyframes tick {
-  0% {
+  @keyframes downloadtray {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1.0;
+    }
+  }
+  #tick {
+    fill: none;
+    stroke-width: 50px;
     opacity: 0;
   }
-  100% {
-    opacity: 1.0;
+  .tick {
+    animation: tick 1ms 0s ease 1 forwards;
   }
-}
-#tickround {
-  stroke: lime;
-  stroke-dasharray: 4000;
-  stroke-linecap: round;
-}
-.tickdraw {
-  animation: tickdraw 2s 0s linear;
-}
-@keyframes tickdraw {
-  0% {
-    stroke-dashoffset: 4000;
+  @keyframes tick {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1.0;
+    }
   }
-  100% {
-    stroke-dashoffset: 8000;
+  #tickround {
+    stroke: lime;
+    stroke-dasharray: 4000;
+    stroke-linecap: round;
   }
-}
-.text {
-  font-size: calc(100% + 20px); font-family: 'Stardos Stencil';
-  margin: 50px 0px 0px 0px;
-  font-size: x-large;
-}
-.Color {
-  color: lime;
-  transition: 1000ms all 1.6s linear;
-}
+  .tickdraw {
+    animation: tickdraw 2s 0s linear;
+  }
+  @keyframes tickdraw {
+    0% {
+      stroke-dashoffset: 4000;
+    }
+    100% {
+      stroke-dashoffset: 8000;
+    }
+  }
+  .text {
+    font-size: calc(100% + 20px); font-family: 'Stardos Stencil';
+    margin: 50px 0px 0px 0px;
+    font-size: x-large;
+  }
+  .Color {
+    color: lime;
+    transition: 1000ms all 1.6s linear;
+  }
+  
+  
+  /* FIN BOUTON */
+  
+  /* TIMELINE */
+  /* Import */
+  
+  /* Variables */
+  /* Base */
+  body {
+    background: #252827;
+    font-size: 16px;
+  }
+  p {
+    font-weight: 300;
+  }
+  
+  h1 {
+    font-family: 'Saira', sans-serif;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: 400;
+    font-size: 2.4em;
+  }
+  #timeline-content {
+    margin-top: 0px;
+    text-align: left;
+  }
+  /* Timeline */
+  .timeline {
+    border-left: 4px solid #5e8233;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 20%;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.5em;
+    font-size: 0.85em;
+    padding-left: 25px;
+    padding-right: 25px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 60%;
+  }
+  .timeline h2{
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .timeline h3 {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  
+  .timeline .event {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    position: relative;
+  }
+  .timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+  }
+  .timeline .event:before,
+  .timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  .timeline .event:before {
+    left: -50%;
+    color: rgba(255, 255, 255, 0.4);
+    content: attr(data-date);
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.8em;
+    width: 60px;
+    padding: 10px;
+  }
+  .timeline .event:after {
+    box-shadow: 0 0 0 4px #5e8233;
+    left: -32.85px;
+    background: #313534;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+  }
+  
+  /* FIN DE TIMELINE */
+  
+  /* LA BARRE DE NAVARRO */
+  nav {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav img{
+    width: 100px;
+  }
+  ul{ 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+  } 
+  li{
+    text-decoration: none;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    z-index: 10000;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #ccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: calc(100%/4);
+  }
+  
+  .navbar a:hover {
+    background: #1e1c27;
+    color: #CCC;
+  }
+  
+  .navbar a.active {
+    background-color: #333;
+    color: white;
+  }
+  .navbar img{
+    width: 25px;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-bottom: 30px;
+  }
+  /* FIN */
+  
+  /* L'ENFER DU SIDE SCROLLING */
+  .slide {
+    width: 100vw;
+    height: 100vh;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+  }
+  
+  
+  .outer-wrapper {
+    width: -50vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y:auto;
+    overflow-x: scroll;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  ::-webkit-scrollbar {
+    display:none;
+  }
+  
+  /* ------------------------------------------------------ */
+  
+  /* CARTE 1 */
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    z-index: 10000;
+    margin: auto;    
+    padding-top: 10%;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding-left: auto;
+    padding-right: auto;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    z-index: 10000;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 10000;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    z-index: 10000;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 
-
-/* FIN BOUTON */
-
-/* TIMELINE */
-/* Import */
-
-/* Variables */
-/* Base */
-body {
-  background: #252827;
-  font-size: 16px;
-}
-p {
-  font-weight: 300;
-}
-
-h1 {
-  font-family: 'Saira', sans-serif;
-  letter-spacing: 1.5px;
-  color: white;
-  font-weight: 400;
-  font-size: 2.4em;
-}
-#timeline-content {
-  margin-top: 0px;
-  text-align: left;
-}
-/* Timeline */
-.timeline {
-  border-left: 4px solid #5e8233;
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
-  background: rgba(255, 255, 255, 0.03);
-  color: rgba(255, 255, 255, 0.8);
-  margin-left: 20%;
-  letter-spacing: 0.5px;
-  position: relative;
-  line-height: 1.5em;
-  font-size: 0.85em;
-  padding-left: 25px;
-  padding-right: 25px;
-  list-style: none;
-  text-align: left;
-  font-weight: 100;
-  max-width: 60%;
-}
-.timeline h2{
-  letter-spacing: 1.5px;
-  font-weight: 400;
-  font-size: 1em;
-}
-.timeline h3 {
-  letter-spacing: 1.5px;
-  font-weight: 400;
-  font-size: 1em;
-}
-
-.timeline .event {
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
-  position: relative;
-}
-.timeline .event:last-of-type {
-  padding-bottom: 0;
-  margin-bottom: 0;
-  border: none;
-}
-.timeline .event:before,
-.timeline .event:after {
-  position: absolute;
-  display: block;
-  top: 0;
-}
-.timeline .event:before {
-  left: -50%;
-  color: rgba(255, 255, 255, 0.4);
-  content: attr(data-date);
-  text-align: center;
-  font-weight: 100;
-  font-size: 0.8em;
-  width: 60px;
-  padding: 10px;
-}
-.timeline .event:after {
-  box-shadow: 0 0 0 4px #5e8233;
-  left: -32.85px;
-  background: #313534;
-  border-radius: 50%;
-  height: 11px;
-  width: 11px;
-  content: "";
-}
-
-/* FIN DE TIMELINE */
-
-/* LA BARRE DE NAVARRO */
-nav {
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-}
-nav img{
-  width: 100px;
-}
-ul{ 
-  list-style-type: none; 
-  margin: 0;
-  padding: 0;
-} 
-li{
-  text-decoration: none;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  z-index: 10000;
-  flex-direction: row;
-  justify-content: space-evenly;
-
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #ccc;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  width: calc(100%/4);
-}
-
-.navbar a:hover {
-  background: #1e1c27;
-  color: #CCC;
-}
-
-.navbar a.active {
-  background-color: #333;
-  color: white;
-}
-.navbar img{
-  width: 25px;
-}
-
-.main {
-  padding: 16px;
-  margin-bottom: 30px;
-}
-/* FIN */
-
-/* L'ENFER DU SIDE SCROLLING */
-.slide {
-  width: 100vw;
-  height: 100vh;
-}
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  width: 400vw;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
-}
-
-
-.outer-wrapper {
-  width: -50vh;
-  height: 100vw;
-  transform: rotate(-90deg) translateX(-100vh);
-  transform-origin: top left;
-  overflow-y:auto;
-  overflow-x: scroll;
-  position: absolute;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-::-webkit-scrollbar {
-  display:none;
-}
-/* FIN */
+  }
+  
+  /* Carte 2 */
+  .flip-card2 {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin: auto;
+    padding-top: 40%;
+  }
+  
+  .flip-card-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card2:hover .flip-card-inner2 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front2 {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back2 {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* ----------------------------------------------------------- */
+  /* Carousel de mort */
+  
+  /* FIN */
