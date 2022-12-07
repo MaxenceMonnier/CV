@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="css\style.css">
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.css"/>
+    <link type="text/css" rel="stylesheet" href="css/lg-zoom.css" />
+    <link type="text/css" rel="stylesheet" href="css/lg-thumbnail.css" />
     <link rel="stylesheet" href="https://use.typekit.net/hrk3qou.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="js/button.js"></script>
-    <script src="https://use.fontawesome.com/fab417e5fd.js"></script>
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js"></script>
+    <script src="js/lightgallery.umd.js"></script>
+    <script src="js/plugins/lg-thumbnail.umd.js"></script>
+    <script src="js/plugins/lg-zoom.umd.js"></script>
 
 </head>
 <body>
@@ -102,10 +106,20 @@
           </div>
     <div class="slide two" id="Slide two">
             <section class="portfolio">
-                <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
-                  <img src="img\Fatzilla.png" data-full="img\Fazilla.png" class="m-p-g__thumbs-img" />
-                </div>
-
+              <div id="lightgallery">
+                <a href="img/Fatzilla.png" data-lg-size="1600-2400">
+                    <img alt="img1" src="img/Fatzilla.png" />
+                </a>
+                <a href="img/Fatzilla.png" data-lg-size="1024-800">
+                    <img alt="img2" src="img/Fatzilla.png" />
+                    <script type="text/javascript">
+                      lightGallery(document.getElementById('lightgallery'), {
+                          plugins: [lgZoom, lgThumbnail],
+                          licenseKey: 'your_license_key',
+                          speed: 500,
+                          // ... other settings
+                      });
+                  </script>
               </section>
           </div>
     <div class="slide three" id="Slide three">
