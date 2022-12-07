@@ -1,226 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="css\style.css">
-    <link type="text/css" rel="stylesheet" href="css/lightgallery.css"/>
-    <link type="text/css" rel="stylesheet" href="css/lg-zoom.css" />
-    <link type="text/css" rel="stylesheet" href="css/lg-thumbnail.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/hrk3qou.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="js/button.js"></script>
-    <script src="js/lightgallery.umd.js"></script>
-    <script src="js/plugins/lg-thumbnail.umd.js"></script>
-    <script src="js/plugins/lg-zoom.umd.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/hrk3qou.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="js/button.js"></script>
 
+  <!-- LIGHTGALLERY -->
+  <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+  <script src="js/lightgallery.min.js"></script>
+  <!-- lightgallery plugins -->
+  <script src="js/lg-thumbnail.umd.js"></script>
+  <script src="js/lg-zoom.umd.js"></script>
+  <!-- lightgallery plugins -->
+  <link type="text/css" rel="stylesheet" href="css/lg-zoom.css" />
+  <link type="text/css" rel="stylesheet" href="css/lg-thumbnail.css" />
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="navbar">
-                <a  href="#Slide one" class="active"><img src="img\home.svg" alt=""></a>
-                <a href="#Slide two"><img src="img\Infos.svg" alt=""></a>
-                <a href="#Slide three"><img src="img\history.svg" alt=""></a>
-                <a href="#Slide four"><img src="img\Skills.svg" alt=""></a>
-              </div> 
-        </nav>
-    </header>
-      
+  <header>
+    <nav>
+      <div class="navbar">
+        <a href="#Slide one" class="active"><img src="img\home.svg" alt=""></a>
+        <a href="#Slide two"><img src="img\portfolio.svg" alt=""></a>
+        <a href="#Slide three"><img src="img\history.svg" alt=""></a>
+        <a href="#Slide four"><img src="img\Skills.svg" alt=""></a>
+      </div>
+    </nav>
+  </header>
 
 
-    <div class="outer-wrapper">
-        <div class="wrapper">
-          <div class="slide one" id="Slide one">
-            <section class="Intro">
-                <div class="Nom">
-                <H1>Maxence Monnier</H1>
-                <h2>Projet : Développeur Python</h2>
-                </div>
 
-                <!--BOUTON -->
-                <div id="div">
-                  <p class="text">Télécharger en format papier.</p>
-                    <div id="download">
-                      <a href="img\CV TEST (1).pdf" download target="_blank">
-                      <svg style="width: 200px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"> 
-                        <title>download</title>
-                        <g id="template">
-                          <circle cx="500" cy="202.87" r="43.6" />
-                          <path d="M429.56,342.75v-31.7a43.18,43.18,0,0,1,43.18-43.18h54.52a43.18,43.18,0,0,1,43.18,43.18v31.78"/>
-                          <circle cx="500" cy="252.98" r="114.13" />
-                          <path d="M675.18,899.16h-425a50,50,0,0,1-50-50v-700a50,50,0,0,1,50-50H750a50,50,0,0,1,50,50V773.89"/>
-                        </g>  
-                        <g id="list">
-                          <line x1="350.6" y1="602.55" x2="685.24" y2="602.55"/>
-                          <circle cx="326.17" cy="503.09" r="10.29" />
-                          <line x1="350.6" y1="502.55" x2="685.24" y2="502.55"/>
-                          <circle cx="326.17" cy="703.09" r="10.29"/>
-                          <line x1="350.6" y1="702.55" x2="685.24" y2="702.55"/>
-                          <circle cx="326.17" cy="603.09" r="10.29"/>
-                          <path d="M800,773.89v75.28a50,50,0,0,1-50,50h-74.8"/>
-                        </g>  
-                        <g id="downloadarrow">
-                          <line x1="500" y1="498.07" x2="500" y2="704.33"/>
-                          <polyline points="424.52 623.87 500 705.31 574.45 623.8"/>
-                        </g>              
-                        <g id="downloadtray">
-                          <polyline points="623.98 703.82 623.98 738.61 623.96 738.75 376.51 738.75 376.33 738.64 376.33 703.83"/>
-                          <path d="M675.12,899.15l125-125Z"/>
-                          <path d="M800,774.13l-74.87,0a50,50,0,0,0-50,50l0,74.93"/>          
-                        </g>  
-                        <g id="tick">
-                          <path id="tickround" d="M860.41,327.75a394.09,394.09,0,0,1,38.35,170.85c0,220.23-178.53,398.75-398.75,398.75S101.25,718.82,101.25,498.59,279.77,99.84,500,99.84c158.83,0,296,92.86,360.09,227.25L500,721.55l-.15,0L286.06,495.26"/>
-                         </g>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="phone">
-                  <img src="img\iconmonstr-mobile-thin.svg" alt="Phone">
-                  <a href="tel:0625957880">  0625957880  </a>
-              </div>
-              <div class="mail">
-                  <img src="img\iconmonstr-mail-thin.svg" alt="mail">
-                  <a href="mailto:maxencemonnier@gmail.com">  maxencemonnier@gmail.com  </a>
-
-              </div>
-              <div class="website">
-                  <img src="img\github.svg" alt="website">
-                  <a href="https://github.com/MaxenceMonnier?tab=repositories" target="_blank">  Mon Profil Github  </a>
-              </div>
-              <div class="permis">
-                
-                  <img src="img\iconmonstr-car-2.svg" alt="car"><p>  Permis B • Véhiculé  </p>
-              </div>
-              <div class="Linkedin">
-                  <img src="img\icons8-linkedin-2 (1).svg" alt="Linkedin">
-                <a href="https://www.linkedin.com/in/maxence-monnier-522bb221a/" target="_blank">  linkedin.com/in/monniermaxence  </a>
-              </div>
-              <div class="machins">
-                  <img src="img\trucs qui flottent.svg" alt="ah">
-              </div>
-            </section>
+  <div class="outer-wrapper">
+    <div class="wrapper">
+      <div class="slide one" id="Slide one">
+        <section class="Intro">
+          <div class="Nom">
+            <H1>Maxence Monnier</H1>
+            <h2>Projet : Développeur Python</h2>
           </div>
-    <div class="slide two" id="Slide two">
-            <section class="portfolio">
-              <div id="lightgallery">
-                <a href="img/Fatzilla.png" data-lg-size="1600-2400">
-                    <img alt="img1" src="img/Fatzilla.png" />
-                </a>
-                <a href="img/Fatzilla.png" data-lg-size="1024-800">
-                    <img alt="img2" src="img/Fatzilla.png" />
-                    <script type="text/javascript">
-                      lightGallery(document.getElementById('lightgallery'), {
-                          plugins: [lgZoom, lgThumbnail],
-                          licenseKey: 'your_license_key',
-                          speed: 500,
-                          // ... other settings
-                      });
-                  </script>
-              </section>
+
+          <!--BOUTON -->
+          <div id="div">
+            <p class="text">Télécharger en format papier.</p>
+            <div id="download">
+              <a href="img\CV TEST (1).pdf" download target="_blank">
+                <svg style="width: 200px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                  <title>download</title>
+                  <g id="template">
+                    <circle cx="500" cy="202.87" r="43.6" />
+                    <path
+                      d="M429.56,342.75v-31.7a43.18,43.18,0,0,1,43.18-43.18h54.52a43.18,43.18,0,0,1,43.18,43.18v31.78" />
+                    <circle cx="500" cy="252.98" r="114.13" />
+                    <path
+                      d="M675.18,899.16h-425a50,50,0,0,1-50-50v-700a50,50,0,0,1,50-50H750a50,50,0,0,1,50,50V773.89" />
+                  </g>
+                  <g id="list">
+                    <line x1="350.6" y1="602.55" x2="685.24" y2="602.55" />
+                    <circle cx="326.17" cy="503.09" r="10.29" />
+                    <line x1="350.6" y1="502.55" x2="685.24" y2="502.55" />
+                    <circle cx="326.17" cy="703.09" r="10.29" />
+                    <line x1="350.6" y1="702.55" x2="685.24" y2="702.55" />
+                    <circle cx="326.17" cy="603.09" r="10.29" />
+                    <path d="M800,773.89v75.28a50,50,0,0,1-50,50h-74.8" />
+                  </g>
+                  <g id="downloadarrow">
+                    <line x1="500" y1="498.07" x2="500" y2="704.33" />
+                    <polyline points="424.52 623.87 500 705.31 574.45 623.8" />
+                  </g>
+                  <g id="downloadtray">
+                    <polyline
+                      points="623.98 703.82 623.98 738.61 623.96 738.75 376.51 738.75 376.33 738.64 376.33 703.83" />
+                    <path d="M675.12,899.15l125-125Z" />
+                    <path d="M800,774.13l-74.87,0a50,50,0,0,0-50,50l0,74.93" />
+                  </g>
+                  <g id="tick">
+                    <path id="tickround"
+                      d="M860.41,327.75a394.09,394.09,0,0,1,38.35,170.85c0,220.23-178.53,398.75-398.75,398.75S101.25,718.82,101.25,498.59,279.77,99.84,500,99.84c158.83,0,296,92.86,360.09,227.25L500,721.55l-.15,0L286.06,495.26" />
+                  </g>
+                </svg>
+              </a>
+            </div>
           </div>
-    <div class="slide three" id="Slide three">
-            <section class="Formations">
-            </section>
-            <section class="Expériences">
-              <div id="timeline-content">            
-                <ul class="timeline">
-                  <li class="event" data-date="2018">
-                    <h3>Obtention du Baccalauréat.</h3>
-                    <p>Spécialité Littéraire, option Anglais Renforcé.</p>
-                  </li>
-                  <li class="event" data-date="2018-2020">
-                    <h3>Licence LLCER Anglais.</h3>
-                    <p>Université Lille 3.</p>    
-                  </li>
-                  <li class="event" id="date" data-date="2019 - Aujourd'hui">
-                    <h3>Modérateur • Bénévolat.</h3>
-                    <p>Modérateur, Médiateur Social d'une communauté internationale en ligne, exclusivement en Anglais.</p>    
-                  </li>
-                  
-                  <li class="event" data-date="2021-2022">
-                    
-                    <h3>Aide Informatique • Service Civique.</h3>
-                    
-                    <p>Médiateur Numérique pour le Pôle Emploi de Condé-sur-l'Escaut.<p> 
-                        <li class="event" data-date="2022 - Aujourd'hui">
-                    
-                    <h3>Employé Polyvalent • Atelier Numérique.</h3>
-                    
-                    <p>Exploration du numérique et du développement web à l'Atelier Numérique d'Ageval.<p/> 
-                        
-                  </li>
+          <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.3 274.77"
+            width="283.29998779296875" height="274.7699890136719">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke: #618333;
+                  stroke-miterlimit: 10;
+                  stroke-width: 3px;
+                }
+              </style>
+            </defs>
+            <line class="cls-1 svg-elem-1" x1="143.65" y1="272.6" x2="68.65" y2="197.6"></line>
+            <line class="cls-1 svg-elem-2" x1="68.65" y1="199.6" x2="143.65" y2="124.6"></line>
+            <line class="cls-1 svg-elem-3" x1="216.65" y1="199.6" x2="141.65" y2="124.6"></line>
+            <line class="cls-1 svg-elem-4" x1="141.65" y1="272.6" x2="216.65" y2="197.6"></line>
+            <line class="cls-1 svg-elem-5" x1="143.65" y1="124.1" x2="68.65" y2="49.1"></line>
+            <line class="cls-1 svg-elem-6" x1="141.65" y1="124.1" x2="216.65" y2="49.1"></line>
+            <line class="cls-1 svg-elem-7" x1="116.38" y1="3.7" x2="69.65" y2="50.1"></line>
+            <line class="cls-1 svg-elem-8" x1="169.2" y1="4.12" x2="215.65" y2="50.1"></line>
+            <line class="cls-1 svg-elem-9" x1="142.54" y1="269.64" x2="142.54" y2="48.47"></line>
+            <line class="cls-1 svg-elem-10" x1="142.54" y1="50.6" x2="142.54" y2="39.6"></line>
+            <line class="cls-1 svg-elem-11" x1="136.68" y1="40.26" x2="142.77" y2="50.6"></line>
+            <line class="cls-1 svg-elem-12" x1="148.52" y1="40.26" x2="142.43" y2="50.6"></line>
+            <ellipse class="cls-1 svg-elem-13" cx="141.65" cy="137.39" rx="140.15" ry="135.89"></ellipse>
+          </svg>
+          <div class="phone">
+            <img src="img\iconmonstr-mobile-thin.svg" alt="Phone">
+            <a href="tel:0625957880">  0625957880  </a>
+          </div>
+          <div class="mail">
+            <img src="img\iconmonstr-mail-thin.svg" alt="mail">
+            <a href="mailto:maxencemonnier@gmail.com">  maxencemonnier@gmail.com  </a>
+
+          </div>
+          <div class="website">
+            <img src="img\github.svg" alt="website">
+            <a href="https://github.com/MaxenceMonnier?tab=repositories" target="_blank">  Mon Profil Github  </a>
+          </div>
+          <div class="permis">
+
+            <img src="img\iconmonstr-car-2.svg" alt="car">
+            <p>  Permis B • Véhiculé  </p>
+          </div>
+          <div class="Linkedin">
+            <img src="img\icons8-linkedin-2 (1).svg" alt="Linkedin">
+            <a href="https://www.linkedin.com/in/maxence-monnier-522bb221a/"
+              target="_blank">  linkedin.com/in/monniermaxence  </a>
+          </div>
+          <div class="machins">
+            <img src="img\trucs qui flottent.svg" alt="ah">
+          </div>
+        </section>
+      </div>
+      <div class="slide two" id="Slide two">
+        <section class="portfolio">
+          <div>
+            <div class="header d-flex flex-column align-items-center">
+              <h1 class="display-6 mt-3 mb-0">lightGallery</h1>
+              <p class="lead mt-2 mb-4">
+                lightGallery is a feature-rich, modular JavaScript gallery plugin for building beautiful image and video
+                galleries for the web and the mobile
+              </p>
+              <a class="btn mb-5 btn-outline-primary" href="https://github.com/sachinchoolur/lightGallery"
+                target="_blank">View on GitHub</a>
+            </div>
+            <div class="gallery-container d-flex align-items-center justify-content-center" id="gallery-container">
+
+              <a data-lg-size="1400-1400" class="gallery-item"
+                data-src="https://images.unsplash.com/photo-1588093413519-17cec3f64e40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+                data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@entrycube' >Diego Guzmán </a></h4> <p> Location - <a href='https://unsplash.com/s/photos/fushimi-inari-taisha-shrine-senbontorii%2C-68%E7%95%AA%E5%9C%B0-fukakusa-yabunouchicho%2C-fushimi-ward%2C-kyoto%2C-japan'>Fushimi Ward, Kyoto, Japan</a></p>">
+                <img class="img-fluid"
+                  src="https://images.unsplash.com/photo-1588093413519-17cec3f64e40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=240&q=80" />
+              </a>
+              <a data-lg-size="1443-1329" class="gallery-item"
+                data-src="https://images.unsplash.com/photo-1563502310703-1ffe473ad66d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1443&q=80"
+                data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@asoshiation' >Shah </a></h4><p> Location - <a href='https://unsplash.com/s/photos/shinimamiya%2C-osaka%2C-japan'>Shinimamiya, Osaka, Japan</a></p>">
+                <img class="img-fluid"
+                  src="https://images.unsplash.com/photo-1563502310703-1ffe473ad66d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=240&q=80" />
+              </a>
+              <a data-lg-size="1400-1402" class="gallery-item"
+                data-src="https://images.unsplash.com/photo-1613541444699-39429d990353?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+                data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@katherine_xx11' >Katherine Gu </a></h4><p> For all those years we were alone and helpless.</p>">
+                <img class="img-fluid"
+                  src="https://images.unsplash.com/photo-1613541444699-39429d990353?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=240&q=80" />
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="slide three" id="Slide three">
+        <section class="Formations">
+        </section>
+        <section class="Expériences">
+          <div id="timeline-content">
+            <ul class="timeline">
+              <li class="event" data-date="2018">
+                <h3>Obtention du Baccalauréat.</h3>
+                <p>Spécialité Littéraire, option Anglais Renforcé.</p>
+              </li>
+              <li class="event" data-date="2018-2020">
+                <h3>Licence LLCER Anglais.</h3>
+                <p>Université Lille 3.</p>
+              </li>
+              <li class="event" id="date" data-date="2019 - Aujourd'hui">
+                <h3>Modérateur • Bénévolat.</h3>
+                <p>Modérateur, Médiateur Social d'une communauté internationale en ligne, exclusivement en Anglais.</p>
+              </li>
+
+              <li class="event" data-date="2021-2022">
+
+                <h3>Aide Informatique • Service Civique.</h3>
+
+                <p>Médiateur Numérique pour le Pôle Emploi de Condé-sur-l'Escaut.
+                <p>
+              <li class="event" data-date="2022 - Aujourd'hui">
+
+                <h3>Employé Polyvalent • Atelier Numérique.</h3>
+
+                <p>Exploration du numérique et du développement web à l'Atelier Numérique d'Ageval.
+                  <p />
+
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="slide four" id="Slide four">
+        <section class="Skills">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="img\lastelle.jpg" alt="lastouille" style="width:100%;height:100%;">
+              </div>
+              <div class="flip-card-back">
+                <div class="shtml">
+                  <img src="img\HTML vector.svg" alt="html">
+                </div>
+                <div class="css">
+                  <img src="img\CSS vector.svg" alt="css">
+                </div>
+                <div class="photoshop">
+                  <img src="img\icons8-adobe-photoshop.svg" alt="photoshop">
+                </div>
+                <div class="vcode">
+                  <img src="img\icons8-visual-studio-code-2019.svg" alt="visual code">
+                </div>
+                <div class="wordpress">
+                  <img src="img\wordpress.svg" alt="wordpress">
+                </div>
+                <div class="office">
+                  <img src="img\icons8-office-365.svg" alt="Pack Office">
+                </div>
+                <div class="jack">
+                  <!-- <p>Bilingue, Niveau C2, quotidiennement pratiqué.</p> -->
+                  <img src="img\united-kingdom.svg" alt="Union Jack">
+                </div>
+                <div class="git">
+                  <img src="img\git-scm-icon.svg" alt="git">
+                </div>
+                <div class="canva">
+                  <img src="img\canva-1.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card2">
+            <div class="flip-card-inner2">
+              <div class="flip-card-front2">
+                <img src="img\unknown.png" alt="" style="width:100%;height:100%;">
+              </div>
+              <div class="flip-card-back2">
+                <ul>
+                  <li>Communication Écrite</li>
+                  <li>Travail en Équipe</li>
+                  <li>Gestion de Conflit</li>
+                  <li>Respect & Politesse</li>
+                  <li>Accept des Feedbacks</li>
+                  <li>Responsabilité & Intégrité</li>
+                  <li>Volonté d'Apprendre</li>
+                  <li>Curiosité</li>
+                  <li>Créativité</li>
                 </ul>
               </div>
-            </section>
+            </div>
           </div>
-    <div class="slide four" id="Slide four">
-            <section class="Skills">
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="img\lastelle.jpg" alt="lastouille" style="width:100%;height:100%;">
-                  </div>
-                  <div class="flip-card-back">
-                    <div class="shtml">
-                      <img src="img\HTML vector.svg" alt="html">
-                    </div>
-                    <div class="css"> 
-                     <img src="img\CSS vector.svg" alt="css">
-                    </div>  
-                    <div class="photoshop">
-                      <img src="img\icons8-adobe-photoshop.svg" alt="photoshop">
-                    </div>
-                    <div class="vcode">
-                      <img src="img\icons8-visual-studio-code-2019.svg" alt="visual code">
-                    </div>
-                    <div class="wordpress">
-                      <img src="img\wordpress.svg" alt="wordpress">
-                    </div>
-                    <div class="office">
-                      <img src="img\icons8-office-365.svg" alt="Pack Office">
-                    </div>
-                    <div class="jack">
-                      <!-- <p>Bilingue, Niveau C2, quotidiennement pratiqué.</p> -->
-                      <img src="img\united-kingdom.svg" alt="Union Jack">
-                    </div>
-                    <div class="git">
-                      <img src="img\git-scm-icon.svg" alt="git">
-                    </div>
-                    <div class="canva">
-                      <img src="img\canva-1.svg" alt="">
-                    </div> 
-                  </div>
-                </div>
-              </div>
-              
-              <div class="flip-card2">
-                <div class="flip-card-inner2">
-                  <div class="flip-card-front2">
-                    <img src="img\unknown.png" alt="" style="width:100%;height:100%;">
-                  </div>
-                  <div class="flip-card-back2">
-                    <ul>
-                      <li>Communication Écrite</li>
-                      <li>Travail en Équipe</li>
-                      <li>Gestion de Conflit</li>
-                      <li>Respect & Politesse</li>
-                      <li>Accept des Feedbacks</li>
-                      <li>Responsabilité & Intégrité</li>
-                      <li>Volonté d'Apprendre</li>
-                      <li>Curiosité</li>
-                      <li>Créativité</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              
-            </section>
+
+        </section>
+      </div>
     </div>
-    </div>
-    </div>
+  </div>
+
+  <script src="js/gallery.js"></script>
 </body>
+
 </html>
