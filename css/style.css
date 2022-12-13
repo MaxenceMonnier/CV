@@ -21,7 +21,7 @@
   #Calque_1{
     position: absolute;
     z-index: -1;
-    width: 100vw;
+    width: 98vw;
     /* margin: auto; */
     /* top: 30%; */
     top: 50vh;
@@ -41,7 +41,7 @@
   #Calque_2{
     position: absolute;
     z-index: -1;
-    width: 100vw;
+    width: 98vw;
     /* margin: auto; */
     /* top: 30%; */
     top: 50vh;
@@ -54,7 +54,7 @@
   #Calque_3{
     position: absolute;
     z-index: -1;
-    width: 100vw;
+    width: 98vw;
     /* margin: auto; */
     /* top: 30%; */
     top: 50vh;
@@ -67,7 +67,7 @@
   #Calque_4{
     position: absolute;
     z-index: -1;
-    width: 100vw;
+    width: 98vw;
     /* margin: auto; */
     /* top: 30%; */
     top: 50vh;
@@ -90,16 +90,20 @@
   .one p{
     padding: 0%;
     margin: 0%;
+
   }
   .two {
     background: #1e1c27;
     text-decoration: none;
     padding: 4px;
     z-index: -5;
+    width: 100vw;
   }
   .three {
     background: #1e1c27;
     z-index: -5;
+    width: 100vw;
+    
   }
   .four {
     background: #1e1c27;
@@ -298,9 +302,7 @@
   /* FIN BOUTON */
   
   /* TIMELINE */
-  /* Import */
   
-  /* Variables */
   /* Base */
   body {
     background: #252827;
