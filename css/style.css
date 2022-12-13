@@ -88,9 +88,11 @@
     font-size: 1.5rem;
   }
   .one p{
-    padding: 0%;
-    margin: 0%;
-
+    padding-top: 0%;
+    margin-top: 0%;
+  }
+  #presentation{
+    padding-top: 50%;
   }
   .two {
     background: #1e1c27;
