@@ -400,9 +400,7 @@
     display: flex;
     justify-content: flex-end;
   }
-  nav img{
-    width: 100px;
-  }
+
   ul{ 
     list-style-type: none; 
     margin: 0;
@@ -452,6 +450,9 @@
   .main {
     padding: 16px;
     margin-bottom: 30px;
+  }
+  #skills{
+    width: 27px;
   }
   /* FIN */
 
