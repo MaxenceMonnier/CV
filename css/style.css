@@ -328,7 +328,7 @@
   }
 
   #tickround {
-    stroke: lime;
+    stroke: #313b2b80;
     stroke-dasharray: 4000;
     stroke-linecap: round;
   }
@@ -613,7 +613,7 @@
   }
 
   .flip-card-back {
-    background-color: #FFC528;
+    background-color: #FFC528 !important; 
     color: white;
     transform: rotateY(180deg);
     width: 100%;
