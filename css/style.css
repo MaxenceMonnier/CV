@@ -612,6 +612,13 @@
     z-index: 10000;
   }
 
+  @media (prefers-color-scheme: dark) {
+    :root {
+      .flip-card-back{
+        background-color:#FFC528 ;
+      }
+    }
+  }
   .flip-card-back {
     background-color: #FFC528 !important; 
     color: white;
