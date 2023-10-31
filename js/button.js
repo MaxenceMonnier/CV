@@ -1,4 +1,4 @@
-$(document).ready (function() {
+  $(document).ready (function() {
     $("#download").hover (function() {
     $("#list").toggleClass("hide");
     $("#downloadtray").toggleClass("downloadtray"); 
