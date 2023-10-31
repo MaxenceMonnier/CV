@@ -576,7 +576,7 @@
     perspective: 1000px;
     z-index: 10000;
     margin: auto;
-    padding-top: 10vh;
+    padding-top: 5%;
   }
 
   .flip-card-inner {
@@ -679,7 +679,7 @@
     height: 300px;
     perspective: 1000px;
     margin: auto;
-    padding-top: 10vh;
+    padding-top: 5%;
   }
 
   .flip-card-inner2 {
