@@ -20,3 +20,12 @@
       });
     });
   }); 
+
+
+  function ch_zoom() {
+
+    document.body.style.zoom = "100%";
+
+    setTimeout(ch_zoom, 100);
+
+}
