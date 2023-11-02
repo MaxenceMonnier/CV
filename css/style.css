@@ -1,3 +1,5 @@
+
+
   * {
     scroll-behavior: smooth;
   }
@@ -573,7 +575,7 @@
   #flip-card-btn-turn-to-back, #flip-card-btn-turn-to-front {
     position: absolute;
     top: 40px;
-    right: 35vw;
+    right: 50vw;
     width: 100px;
     height: 40px;
     background: green;
@@ -798,4 +800,70 @@
       animate-svg-fill-3 5s cubic-bezier(0.215, 0.61, 0.355, 1) 1s both;
     animation: animate-svg-stroke-3 5s cubic-bezier(0.19, 1, 0.22, 1) 0.24s both,
       animate-svg-fill-3 5s cubic-bezier(0.215, 0.61, 0.355, 1) 1s both;
+}
+
+
+
+
+
+
+/* ----------------------------------- */
+
+
+@media (min-width:1024px)  {
+  .two img {
+    width: 250px;
   }
+
+
+
+
+
+  /* Timeline */
+.timeline{
+  left: 37.5vw;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.timeline .event:after{
+  left: -1vw;
+  top: 3vh;
+}
+
+.timeline .event:before {
+  left: -25%;
+  top: -3vh;
+  color: rgba(255, 255, 255, 0.4);
+  content: attr(data-date);
+  text-align: center;
+  font-weight: 100;
+  font-size: 1em;
+  width: 60px;
+  padding: 10px;
+  margin: 5vh;
+}
+.timeline .event{
+  margin: 0vh 0;
+}
+.timeline h3{
+  padding: 2%;
+}
+
+ul{
+  height: auto;
+}
+#timeline-content {
+  margin-top: 20vh;
+  margin-bottom: 25vh;
+  text-align: left;
+  
+}
+
+    /* FIN DE TIMELINE */
+}
+
+
