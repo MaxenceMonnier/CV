@@ -610,7 +610,7 @@
     color: grey;
     display: block;
     position: absolute;
-    top: 40%;
+    top: 50%;
     width: 100%;
   }
 
@@ -862,6 +862,20 @@ ul{
   text-align: left;
   
 }
+#flip-card-btn-turn-to-back, #flip-card-btn-turn-to-front {
+  position: absolute;
+  top: 40px;
+  right: 50vw;
+  width: 100px;
+  height: 40px;
+  background: green;
+  cursor: pointer;
+  visibility: hidden;
+  font-weight: 600;
+  font-size: .7em;
+  padding: 0;
+  border: 1px solid #5e8233;
+  border-radius: 50px;
 
     /* FIN DE TIMELINE */
 }
