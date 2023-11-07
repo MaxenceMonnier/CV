@@ -14,8 +14,8 @@
     color: #CCC;
     overflow-y: scroll;
     overflow-x: scroll;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0 ;
+    padding: 0 ;
     z-index: -2;
   }
 
@@ -107,7 +107,7 @@
     font-size: 1.5rem;
     border-left: white 1px;
     border-radius: 50px;
-    box-shadow: white;
+    box-shadow: rgb(247, 245, 245);
   }
 
   .one p {
