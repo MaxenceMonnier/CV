@@ -882,7 +882,6 @@ ul{
 #flip-card-btn-turn-to-back, #flip-card-btn-turn-to-front {
   position: absolute;
   top: 40px;
-  right: 50vw;
   width: 100px;
   height: 40px;
   background: green;
@@ -893,7 +892,7 @@ ul{
   padding: 0;
   border: 1px solid #5e8233;
   border-radius: 50px;
-
+  transform: translate(-50%, 50%);
     /* FIN DE TIMELINE */
 }
 
