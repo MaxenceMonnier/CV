@@ -116,7 +116,6 @@
   }
 
   #presentation {
-    padding-top: 20vh;
     text-align: center;
   }
 
@@ -166,14 +165,23 @@
     /* padding-top: 8vh; */
     /* padding-bottom: 10vh; */
   }
-
+  @media (max-width:1023px)  {
+    .text-logo{
+      display: none;
+    }
+  
+    }
+  
+  
   #soft{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     line-height: 24pt;
+    height: 100vh;
 }
+
 
   .two a {
     text-decoration: none;
@@ -194,6 +202,15 @@
     display: flex;
     align-items: flex-end;
     flex-direction: column-reverse;
+  }
+
+  #infos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 24pt;
+  height: 30vh;
   }
 
 
@@ -575,7 +592,6 @@
   #flip-card-btn-turn-to-back, #flip-card-btn-turn-to-front {
     position: absolute;
     top: 40px;
-    right: 50vw;
     width: 100px;
     height: 40px;
     background: green;
@@ -586,6 +602,7 @@
     padding: 0;
     border: 1px solid #5e8233;
     border-radius: 50px;
+    transform: translate(-50%, 50%);
   }
 
   #flip-card .flip-card-front, #flip-card .flip-card-back{
@@ -598,8 +615,8 @@
     backface-visibility: hidden;
     z-index: 2;
   }
-  #flip-card .flip-card-front {
-  }
+  /* #flip-card .flip-card-front {
+  } */
   #flip-card .flip-card-back {
       -o-transform: rotateY(180deg);
       -webkit-transform: rotateY(180deg);
@@ -880,4 +897,17 @@ ul{
     /* FIN DE TIMELINE */
 }
 
+#soft{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 24pt;
+}
+h3{
+  width: 50vw;
+}
 
+.text-logo{
+  visibility: visible;
+}

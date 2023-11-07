@@ -45,7 +45,6 @@
           </section>
           <div class="Nom">
             <H1>Maxence Monnier</H1>
-            <!-- <h2>Projet : Développeur Python</h2> -->
           </div>
           <div id="div">
             <div id="download">
@@ -119,29 +118,21 @@
           </svg>
 
           <section id="presentation">
-            <div class="phone">
-              <!-- <img src="img/iconmonstr-mobile-thin.svg" alt="Phone"> -->
-              <p><a href="tel:0625957880">  0625957880  </a></p>
-            </div>
-            <div class="mail">
-              <!-- <img src="img/iconmonstr-mail-thin.svg" alt="mail"> -->
-              <p><a href="mailto:maxencemonnier@gmail.com">  maxencemonnier@gmail.com  </a></p>
-
-            </div>
-            <div class="website">
-              <!-- <img src="img/github.svg" alt="website"> -->
-              <p><a href="https://github.com/MaxenceMonnier?tab=repositories" target="_blank">  My Github's profile  </a>
-              </p>
-            </div>
-            <div class="Linkedin">
-              <!-- <img src="img/icons8-linkedin-2 (1).svg" alt="Linkedin"> -->
-              <p><a href="https://www.linkedin.com/in/maxence-monnier-522bb221a/" target="_blank">  My Linkedin Profile  </a></p>
-              <div class="permis">
-
-                <!-- <img src="img/iconmonstr-car-2.svg" alt="car"> -->
-                <p>  Driving Licence • Car</p>
-              </div>
-            </div>
+            <ul id="infos">
+              <li>
+                <a href="tel:0625957880">  0625957880  </a>
+              </li>
+              <li>
+                <a href="mailto:maxencemonnier@gmail.com">  maxencemonnier@gmail.com  </a>
+              </li>
+              <li>
+                <a href="https://github.com/MaxenceMonnier?tab=repositories" target="_blank">  My Github's profile  </a>
+              </li>
+              <li><a href="https://www.linkedin.com/in/maxence-monnier-522bb221a/" target="_blank">  My Linkedin Profile  </a>
+              </li>
+              <li> Driving Licence • Car                
+              </li>
+            </ul>
           </section>
         </section>
       </div>
@@ -211,32 +202,31 @@
         <section class="Formations">
         </section>
         <section class="Expériences">
-          <div id="timeline-content">
+          <div id="timeline-content" >
             <ul class="timeline">
-              <li class="event" data-date="2022 - Aujourd'hui">
+              <li class="event" class="eventG" data-date="2022 - Still Ongoing">
 
                 <h3>Versatile Worker • Coding classes.</h3>
 
                 <p>Learning various tools and web development at Ageval.</p>
               </li>
-              <li class="event" data-date="2021-2022">
+              <li class="event" class="eventD" data-date="2021-2022">
 
                 <h3>IT helpdesk • Civic Service.</h3>
 
                 <p>IT helpdesk for Condé-sur-l'Escaut's Pole Emploi.</p>
               </li>
-              <li class="event" id="date" data-date="2019 - Aujourd'hui">
+              <li class="event" class="eventG" class="eventG" id="date" data-date="2019 - Still Ongoing">
                 <h3>Moderator • Volunteer Experience.</h3>
                 <p>Moderator of an international online community.</p>
               </li>
 
-              <li class="event" data-date="2018-2020">
+              <li class="event" class="eventD" data-date="2018-2020">
                 <h3>English Licence.</h3>
                 <p>Lille 3 University.</p>
-                <li class="event" data-date="2018">
-                  <h3>High School diploma.</h3>
+                <li class="event" class="eventG" data-date="2018">
+                  <h3>High School Diploma.</h3>
                   <p>Literature and English focused.</p>
-
               </li>
             </ul>
           </div>
@@ -282,39 +272,50 @@
                     <div class="container">
                       <div class="HTML">
                         <img src="img/HTML vector.svg" alt="html">
+                        <div class="text-logo">HTML 5</div>
                       </div>
                       <div class="CSS">
                         <img src="img/CSS vector.svg" alt="css">
+                        <div class="text-logo">CSS 3</div>
                       </div>
                       <div class="JS">
                         <img src="img/javascript.svg" alt="">
+                        <div class="text-logo">Javascript</div>
                       </div>
                       <div class="Wordpress">
                         <img src="img/wordpress.svg" alt="wordpresss">
+                        <div class="text-logo">Wordpress</div>
                       </div>
                       <div class="Pack-Office">
                         <img src="img/icons8-office-365.svg" alt="Pack Office">
+                        <div class="text-logo">Pack Office</div>
                       </div>
                       <div class="Visual-Code">
                         <img src="img/icons8-visual-studio-code-2019.svg" alt="visual code">
+                        <div class="text-logo">Visual Studio Code</div>
                       </div>
                       <div class="Photoshop">
                         <img src="img/icons8-adobe-photoshop.svg" alt="photoshop">
+                        <div class="text-logo">Photoshop</div>
                       </div>
                       <div class="Canva">
                         <img src="img/canva-1.svg" alt="">
+                        <div class="text-logo">Canva</div>
                       </div>
                       <div class="Figma">
                         <img src="img/figma-icon.svg" alt="">
+                        <div class="text-logo">Figma</div>
                       </div>
                       <div class="Git">
                         <img src="img/git-scm-icon.svg" alt="git">
+                        <div class="text-logo">Git</div>
                       </div>
                       <div class="English">
                         <img src="img/united-kingdom.svg" alt="Union Jack">
+                        <div class="text-logo">Anglais Niveau C2</div>
                       </div>
                   </div>
-                  <button id="flip-card-btn-turn-to-back" >Savoir Être</button>
+                  <button id="flip-card-btn-turn-to-back" >Soft Skills</button>
                 </div>
                   <div class="flip-card-back">
                     <ul id="soft">
@@ -328,7 +329,7 @@
                       <li>Curiosité</li>
                       <li>Créativité</li>
                   </ul>
-                  <button id="flip-card-btn-turn-to-front">Savoir Faire</button>
+                  <button id="flip-card-btn-turn-to-front">Hard Skills</button>
                 </div>            
               </div>
             </div>   
