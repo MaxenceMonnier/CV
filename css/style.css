@@ -150,7 +150,8 @@
   }
 
   .two img {
-    width: 50px;
+    width: 140px;
+    height: 200px;
   }
 
   .Skills img {
@@ -830,6 +831,7 @@
 @media (min-width:1024px)  {
   .two img {
     width: 250px;
+    height: 370px;
   }
 
 
