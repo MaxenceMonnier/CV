@@ -54,7 +54,7 @@
 
 .lg-single-item .lg-next, .lg-single-item
 .lg-prev {
-  display: none;
+  display: block;
 }
 
 .lg-next {
