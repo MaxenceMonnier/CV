@@ -381,6 +381,7 @@
   #timeline-content {
     margin-top: 0px;
     text-align: left;
+    overflow-y: auto;
   }
 
   /* ------------------------------------------- */
@@ -876,11 +877,21 @@ ul{
   height: auto;
 }
 #timeline-content {
-  margin-top: 20vh;
-  margin-bottom: 25vh;
+  display: flex;
+  margin-top: 1%;
   text-align: left;
-  
+  overflow-y: visible;
 }
+
+.Formations {
+  display: flex;
+  flex-direction: row;
+}
+.Expériences {
+  display: flex;
+  flex-direction: row;
+}
+
 #flip-card-btn-turn-to-back, #flip-card-btn-turn-to-front {
   position: absolute;
   top: 40px;
