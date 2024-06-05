@@ -154,6 +154,7 @@
     height: 200px;
   }
 
+
   .Skills img {
     width: 50px;
     display: flex;
@@ -832,12 +833,17 @@
 
 @media (min-width:1024px)  {
   .two img {
-    width: 250px;
-    height: 370px;
+    width: 350px;
+    height: 500px;
   }
 
-
-
+  #maquette_desktop img{
+    width: 700px;
+    height: 350px;  
+  }
+#newsletter img{
+  width: 300px;
+}
 
 
   /* Timeline */
@@ -925,3 +931,5 @@ h3{
   visibility: visible;
 }
 }
+
+
