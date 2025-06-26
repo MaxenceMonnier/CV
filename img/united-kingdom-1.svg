@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 2500">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 33.89;
+        stroke-width: 6.47px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #1e5593;
+      }
+
+      .cls-5 {
+        fill: #cc2229;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M0,0H2500V2500H0V0Z"/>
+  <path class="cls-5" d="M2389.71,1321.11v-135.5H110.29v135.5H2389.71Z"/>
+  <path class="cls-4" d="M1135.35,1147.76V559.79H110.29v587.97H1135.35Z"/>
+  <path class="cls-3" d="M785.9,1147.76h349.44v-69.1L271.77,559.79H110.29v179.66l675.61,408.31Z"/>
+  <path class="cls-5" d="M110.29,689.2v-129.41l964.03,587.97h-200.64L110.29,689.2Z"/>
+  <path class="cls-4" d="M1135.35,1354.76v585.47H110.29v-585.47H1135.35Z"/>
+  <path class="cls-3" d="M789.13,1354.76h346.21v77.92l-751.52,507.55H110.29v-131.95l678.84-453.51h0Z"/>
+  <path class="cls-5" d="M286.06,1940.22l849.29-585.47h-150.38L110.29,1940.22h175.77Z"/>
+  <path class="cls-4" d="M1364.67,1147.76V559.79h1025.04v587.97H1364.67Z"/>
+  <path class="cls-3" d="M1714.11,1147.76h-349.44v-69.1l863.58-518.87h161.46v179.66l-675.59,408.31h0Z"/>
+  <path class="cls-5" d="M2389.71,689.2v-129.41l-964.02,587.97h200.63l763.39-458.56h0Z"/>
+  <path class="cls-4" d="M1364.67,1354.76v585.47h1025.04v-585.47H1364.67Z"/>
+  <path class="cls-3" d="M1710.87,1354.76h-346.2v77.92l751.51,507.55h273.53v-131.95l-678.84-453.51h0Z"/>
+  <path class="cls-5" d="M2213.95,1940.22l-849.29-585.47h150.36l874.68,585.47h-175.75Zm-895.52,0V559.79h-136.07V1940.22h136.07Z"/>
+  <path class="cls-1" d="M2389.71,1940.22V559.79H110.29V1940.22H2389.71Z"/>
+</svg>
